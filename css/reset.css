@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'pretendard';
+    src: url(../font/PretendardVariable.woff2);
+}
+
+html{
+    font-family: 'pretendard';
+    color: #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Camping</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        
+        <div class="uWrap">
+            <div>
+
+                <ul class="util1">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul><!--util1-->
+            </div>
+        </div><!--uWrap-->
+
+        <div class="hWrap">
+            <h1><img src="images/logo.png" alt="고캠핑"></h1>
+
+            <ul class="gnb">
+                <li><a href="#">예약하기</a></li>
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul><!--gnb-->
+
+            <div class="subMenu">
+                <div class="subWrap">
+                    <ul class="sub">
+                        <li><a href="#">캠핑장 검색</a></li>
+                        <li><a href="#">지도로 검색</a></li>
+                        <li><a href="#">테마로 검색</a></li>
+                    </ul><!--sub-->
+                
+                    <ul class="sub">
+                        <li><a href="#">이달의 캠핑장</a></li>
+                        <li><a href="#">캠핑장 후기</a></li>
+                        <li><a href="#">안전한 캠핑즐기기</a></li>
+                    </ul><!--sub-->
+                
+                    <ul class="sub">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">캠핑장 공지사항</a></li>
+                    </ul><!--sub-->
+                
+                    <ul class="sub">
+                        <li><a href="#">자주하는 질문</a></li>
+                        <li><a href="#">캠핑장정보 수정요청</a></li>
+                        <li><a href="#">등록야영장 확인문의</a></li>
+                    </ul><!--sub-->
+                </div><!--subWrap-->
+            </div><!--subMenu-->
+
+            <form>
+                <input type="text" placeholder="캠핑장 검색하기">
+                        <button class="btnSrch">
+                            <img src="images/ico-search.png" alt="search">
+                        </button>
+            </form>
+
+            <ul class="util2">
+                <li><a href="#">
+                    <img class="icon_my" src="images/ico-mymenu.png" alt="마이페이지">
+                    마이페이지
+                </a></li>
+
+                <li><a href="#">
+                    <img class="icon_resrv" src="images/ico-reservationhistory.png" alt="예약내역">
+                    예약내역</a></li>
+
+                <li><a href="#">
+                    <img class="icon_hert" src="images/ico-haeder-choice.png" alt="찜">
+                    찜</a></li>
+            </ul><!--util2-->
+        </div><!--hWrap-->
+    </header>
+
+    <div class="bn">
+        <div class="bnWrap">
+            <div class="slide slide1"><a href="#">
+                <img src="images/bn1.jpg" alt="배너1">
+            </a></div><!--slide1-->
+
+            <div class="slide slide2"><a href="#">
+                <img src="images/bn2.jpg" alt="배너2">
+            </a></div><!--slide2-->
+
+        </div><!--bnWrap-->
+
+        <div class="srch">
+            <h4>원하는 캠핑장을 찾아보세요!</h4>
+
+                <div class="theme item">
+                    <select name="" id="">
+                        <option class="output" value>입지별</option>
+                        <option value="type">해변</option>
+                        <option value="type">섬</option>
+                        <option value="type">산</option>
+                        <option value="type">숲</option>
+                        <option value="type">계곡</option>
+                        <option value="type">강</option>
+                        <option value="type">호수</option>
+                        <option value="type">도심</option>
+                    </select>
+
+                    <select name="" id="">
+                        <option class="output" value>테마별</option>
+                        <option value="thm">일출명소</option>
+                        <option value="thm">일몰명소</option>
+                        <option value="thm">수상레저</option>
+                        <option value="thm">항공레저</option>
+                        <option value="thm">스키</option>
+                        <option value="thm">낚시</option>
+                        <option value="thm">액티비티</option>
+                        <option value="thm">둘레길</option>
+                        <option value="thm">반려견동반</option>
+                        <option value="thm">문화유적</option>
+                        <option value="thm">축제</option>
+                        <option value="thm">생태교육</option>
+                        <option value="thm">봄꽃여행</option>
+                        <option value="thm">여름물놀이</option>
+                        <option value="thm">가을단풍명소</option>
+                        <option value="thm">겨울 눈꽃명소</option>
+                    </select>
+                </div><!--theme-->
+
+            <button>검색</button>
+        </div><!--srch-->
+    </div><!--bn-->
+
+    <div class="row1">
+        <h2>이달의 캠핑장</h2>
+        <p>🌊바다가 들리는 곳🌊으로 떠나봐요!</p>
+
+        <div class="view">
+            <figure></figure>
+            <h4></h4>
+            <p></p>
+
+            <button>close</button>
+        </div><!--view-->
+        <div class="closewrap"></div>
+
+        <div class="con">
+
+            <div class="rec">
+                <div class="pic">
+                    <img src="images/rec1.jpg" alt="장호비치 캠핑장">
+                </div><!--pic-->
+                    <p>장호비치 캠핑장</p>
+                    <span># 동해안</span>  
+                    <span># 여유있는</span>
+                    <span># 연인과 함께</span>
+            </div><!--rec1-->
+
+            <div class="rec">
+                <div class="pic">
+                    <img src="images/rec2.jpg" alt="영덕 고래불 국민 야영장">
+                </div><!--pic-->
+                    <p>영덕 고래불 국민 야영장</p>
+                    <span># 물놀이 하기 좋은</span>  
+                    <span>#둘레길</span>
+                    <span># 가족과 함께</span>
+            </div><!--rec2-->
+
+            <div class="rec">
+                <div class="pic">
+                    <img src="images/rec3.jpg" alt="통제영 오토캠핑장">
+                </div><!--pic-->
+                    <p>통제영 오토캠핑장</p>
+                        <span># 별 보기 좋은</span>  
+                        <span># 밤낚시</span>
+                        <span># 문화유적</span><br>
+                        <span># 친구와 함께</span>
+            </div><!--rec3-->
+
+            <div class="rec">
+                <div class="pic">
+                    <img src="images/rec4.jpg" alt="장경리해변 야영장">
+                </div><!--pic-->
+                    <p>장경리해변 야영장</p>
+                    <span># 물놀이 하기 좋은</span>  
+                    <span># 여름</span>
+                    <span># 낙조</span><br>
+                    <span># 아이와 함께</span>
+            </div><!--rec4-->
+        </div><!--con-->
+    </div><!--row1-->
+
+    <div class="row2">
+        <div class="txt">
+            <h2>가장 중요한건 안전</h2>
+            <p>떠나기 전 꼭 알아야 할<br>안전수칙을 알려준다Go!</p>
+            <div class="btn">
+                <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div><!--btn--> 
+        </div><!--txt-->
+
+        <div class="pic">
+            <div class="item"><a href="#">
+                <figure>
+                <img src="images/safe1.jpg" alt="차박">
+                </figure>
+                <p>[해안가 차박] 챙겨야 할 필수품?</p>
+            </a></div><!--item-->
+
+            <div class="item"><a href="#">
+                <figure>
+                <img src="images/safe2.jpg" alt="불멍">
+                </figure>
+                <p>[불멍] 캠핑의 낭만을 찾아서</p>
+            </a></div><!--item-->
+
+            <div class="item"><a href="#">
+                <figure>
+                <img src="images/safe3.jpg" alt="음식조리">
+                </figure>
+                <p>[음식조리] 여름철 식중독 주의경보!</p>
+            </a></div><!--item-->
+
+            <div class="item"><a href="#">
+                <figure>
+                <img src="images/safe4.jpg" alt="물놀이">
+                </figure>
+                <p>[물놀이] 잊지말아야 할 3가지</p>
+            </a></div><!--item-->
+
+            <div class="item"><a href="#">
+                <figure>
+                <img src="images/safe5.jpg" alt="우중캠핑">
+                </figure>
+                <p>[우중캠핑] 비오는 캠핑도 좋지만...</p>
+            </a></div><!--item-->
+
+            <div class="item"><a href="#">
+                <figure>
+                <img src="images/safe6.jpg" alt="응급처치">
+                </figure>
+                <p>[응급처치] 비상약 구성과 기본 응급처치</p>
+            </a></div><!--item-->
+
+        </div><!--pic-->
+    </div><!--row2-->
+
+    <div class="row3">
+        <h2>우리들의 캠핑</h2>
+        <div class="con">
+
+            <div class="item"><a href="#">
+                <div class="pic">
+                <img src="images/review1.jpg">
+                </div><!--pic-->
+                <h4>벚꽃나무 아래서 즐기는 봄 캠핑🌸</h4>
+                <div class="id">
+                    <div>
+                    <img src="images/id1.jpg">
+                    <p>마루캠핑</p></div>
+                    <span>2023.04.21</span>
+                </div><!--id-->
+            </a></div><!--item1-->
+
+            <div class="item"><a href="#">
+                <div class="pic">
+                <img src="images/review2.jpg">
+            </div><!--pic-->
+                <h4>매번 바뀌는 우리집 앞마당! 신혼부부의 캠핑일기</h4>
+                <div class="id">
+                    <div>
+                    <img src="images/id2.jpg">
+                    <p>주니앤구마</p></div>
+                    <span>2023.04.05</span>
+                </div><!--id-->
+            </a></div><!--item2-->
+
+            <div class="item"><a href="#">
+                <div class="pic">
+                <img src="images/review3.jpg">
+            </div><!--pic-->
+                <h4>🌟은하수가 쏟아지는🌟 우리만의 저택</h4>
+                <div class="id">
+                    <div>
+                    <img src="images/id3.jpg">
+                    <p>thedim_camping</p></div>
+                    <span>2023.02.13</span>
+                </div><!--id-->
+            </a></div><!--item3-->
+
+            <div class="item"><a href="#">
+                <div class="pic">
+                <img src="images/review4.jpg">
+            </div><!--pic-->
+                <h4>소복히 쌓인 눈을 보며 핫초코 한잔..☕</h4>
+                <div class="id">
+                    <div>
+                    <img src="images/id4.jpg">
+                    <p>주토그래퍼</p></div>
+                    <span>2023.01.25</span>
+                </div><!--id-->
+            </a></div><!--item4-->
+
+            <div class="item"><a href="#">
+                <div class="pic">
+                <img src="images/review5.jpg">
+            </div><!--pic-->
+                <h4>반려견과 함께 떠나는 행복두배 캠핑이야기</h4>
+                <div class="id">
+                    <div>
+                    <img src="images/id5.jpg">
+                    <p>bori_papa</p></div>
+                    <span>2023.03.30</span>
+                </div><!--id-->
+            </a></div><!--item5-->
+
+            <div class="item"><a href="#">
+                <div class="pic">
+                <img src="images/review6.jpg">
+            </div><!--pic-->
+                <h4>비가 와도 오히려 좋아! 나의 첫 우중캠핑☔</h4>
+                <div class="id">
+                    <div>
+                    <img src="images/id6.jpg">
+                    <p>나솔캠</p></div>
+                    <span>2023.03.15</span>
+                </div><!--id-->
+            </a></div><!--item6-->
+
+        </div><!--con-->
+    </div><!--row3-->
+
+
+    <section>
+        <div class="tWrap">
+            <ul class="tabBtn">
+                <li class="active"><a href="#">제주도의 푸른밤</a></li>
+                <li><a href="#">두 손 가벼운 글램핑</a></li>
+                <li><a href="#">시원한 계곡</a></li>
+                <li><a href="#">도심 속 힐링</a></li>
+            </ul><!--tabBtn-->
+
+            <div class="tabCon">
+                <div class="item item1">
+                    <div class="itmWrap">
+                        <div class="txt">
+                            <h2>더 가까이서 느끼는<br>
+                                제주도의 자연</h2>
+                            <p>파도소리를 자장가 삼아 잠들어 보는<br> 
+                                바닷가 야영부터,<br>
+                                피톤치드를 가득 느낄 수 있는<br> 
+                                숲속 캠핑까지!<br>
+                                제주의 다채로운 자연을 느껴보자.</p>
+                        </div><!--txt-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm1-1.jpg" alt="비양도 야영장">
+                            <p>[비양도 야영장] 백패킹의 성지</p>
+                        </a></div><!--img1-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm1-2.jpg" alt="서귀포 자연휴양림">
+                            <p>[서귀포 자연휴양림] 피톤치드 가득한 곳</p>
+                        </a></div><!--img2-->
+                    </div><!--itmWrap-->
+                </div><!--item1 제주-->
+
+                <div class="item item2">
+                    <div class="itmWrap">
+                        <div class="txt">
+                            <h2>감성캠핑과 편리함을<br>
+                                모두 누리고 싶다면?</h2>
+                            <p>캠핑의 꽃 바베큐는 물론이고<br> 
+                                에어컨, 침대까지 각종 편의시설이<br>
+                                갖추어져 있는 글램핑을 추천한다.<br> 
+                                아직 캠핑장비를 다 갖추지 못한<br>
+                                캠린이들에게도 좋은 선택이다.</p>
+                        </div><!--txt-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm2-1.jpg" alt="네이스트 프라이빗">
+                            <p>[네이스트 프라이빗] 감성가득 숲속 글램핑</p>
+                        </a></div><!--img1-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm2-2.jpg" alt="무주 더스위트 글램핑">
+                            <p>[무주 더스위트 글램핑 & 펜션] 수영장이 있는 복층 텐트</p>
+                        </a></div><!--img2-->
+                    </div><!--itmWrap-->
+                </div><!--item2 글램핑-->
+
+                <div class="item item3">
+                    <div class="itmWrap">
+                        <div class="txt">
+                            <h2>그늘아래 바람 솔솔<br>
+                                시원한 계곡</h2>
+                            <p>캠핑의 꽃 바베큐는 물론이고<br> 
+                                에어컨, 침대까지 각종 편의시설이<br>
+                                갖추어져 있는 글램핑을 추천한다.<br> 
+                                아직 캠핑장비를 다 갖추지 못한<br>
+                                캠린이들에게도 좋은 선택이다.</p>
+                        </div><!--txt-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm3-1.jpg" alt="영동 핏들 캠핑장">
+                            <p>[영동 핏들 캠핑장] 사이트 바로 옆 계곡이 있는 곳</p>
+                        </a></div><!--img1-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm3-2.jpg" alt="하늘구름길 캠핑장">
+                            <p>[하늘구름길 캠핑장] 계곡 위 공중그네를 탈 수 있는 곳</p>
+                        </a></div><!--img2-->
+                    </div><!--itmWrap-->
+                </div><!--item3 계곡-->
+
+                <div class="item item4">
+                    <div class="itmWrap">
+                        <div class="txt">
+                            <h2>가장 가까운 힐링<br>
+                                도심 속 이색 캠핑장</h2>
+                            <p>바쁜 일상을 잠시 내려놓고<br> 
+                                가까운 도심 속 캠핑장으로 떠나보자.<br>
+                                반짝이는 야경을 보고 있자면<br> 
+                                먼 곳까지 가지 않아도<br>
+                                충분한 휴식을 가질 수 있을것만 같다.</p>
+                        </div><!--txt-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm4-1.jpg" alt="영도마리노 오토캠핑장">
+                            <p>[영도 마리노 오토캠핑장] 부산항대교 아래 이색 캠핑장</p>
+                        </a></div><!--img1-->
+
+                        <div class="img"><a href="#">
+                            <img src="images/thm4-2.jpg" alt="달서 별빛캠핑장">
+                            <p>[달서 별빛캠핑장] 도심의 야경을 한눈에 담을 수 있는 곳</p>
+                        </a></div><!--img2-->
+                    </div><!--itmWrap-->
+                </div><!--item4 도심-->
+            </div><!--tabCon-->
+        </div><!--tWrap-->
+    </section><!--tab-->
+
+    <div class="event">
+        <div class="eWrap">
+            <div class="slide slide1"><a href="#">
+                <img src="images/event1.jpg" alt="네이버페이">
+            </a></div><!--slide1-->
+
+            <div class="slide slide2"><a href="#">
+                <img src="images/event2.jpg" alt="고캠핑 서포터즈">
+            </a></div><!--slide2-->
+
+            <div class="slide slide3"><a href="#">
+                <img src="images/event3.jpg" alt="사업자 안전교육">
+            </a></div><!--slide3-->
+        </div><!--eWrap-->
+    </div><!--event-->
+
+
+    <footer>
+        <div class="fWrap fWrap1">
+            <div class="logo">
+                <h2><a href="#">
+                    <img src="images/f_logo.png" alt="고캠핑">
+                </a></h2>
+                <a href="#"><img src="images/logo_t.png" alt="한국관광공사"></a>
+            </div><!--logo-->
+
+            <div class="sns">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div><!--sns-->
+        </div><!--fWrap1-->
+
+        <span></span>
+
+        <div class="fWrap fWrap2">
+            <div class="info">
+                <ul>
+                    <li>강원도 원주시 세계로 10 (반곡동 1914-6) 한국관광공사</li>
+                    <li>TEL : 070-8830-0772 (상담시간 : 평일 10:00~18:00)</li>
+                    <li>EMAIL : webmaster@gocamping.or.kr</li>
+                    <li>온라인교육 고객센터 : 02-303-9964</li>
+                    <li>Copyrights(c) 2023 JANGHYEMIN ALL RIGHTS RESERVED.</li>
+                </ul>
+
+                <ul>
+                    <li class="prsn"><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">전자우편무단수집거부</a></li>
+                    <li><a href="#">캠핑장 등록안내</a></li>
+                    <li><a href="#">미등록야영장 불법영업신고</a></li>
+                </ul>
+            </div><!--info-->
+
+                <div class="rel">
+                    <button>관련사이트</button>
+                    <ul>
+                        <li><a href="#">한국관광공사</a></li>
+                        <li><a href="#">대한민국 구석구석</a></li>
+                        <li><a href="#">두루누비</a></li>
+                        <li><a href="#">지구촌스마트여행</a></li>
+                        <li><a href="#">관광사진 갤러리</a></li>
+                    </ul>
+                </div><!--rel-->
+
+        </div><!--fWrap2-->
+    </footer>
+
+
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/d5c6ca3212.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
